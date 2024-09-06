@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () =>{
                 page++;
             }
 
-            else if (deltaY <= 0 ) {
+            else if (deltaY <= -50 ) {
                 page--;
             }
         } 
