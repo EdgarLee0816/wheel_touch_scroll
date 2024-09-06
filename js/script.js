@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
         console.log ( e.deltaY);
 
-        layout.style.top = page * (-100) + "vh";
+        layout.style.top = page * (-100) + "dvh";
 
     }, {passive:false});
 
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             page = last;
         }
 
-        layout.style.top = page * (-100) + "vh";
+        layout.style.top = page * (-100) + "dvh";
 
     }, {passive:false});
 
